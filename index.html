@@ -11,10 +11,10 @@
 </head>
 <body class="bg-neutral-900">
     <!--navigation-bar-->
-<header class=" h-screen  ">
+<header class=" h-screen" style="background-image: url(/assets/bacdesign.png);">
     <nav class="flex justify-between items-center h-20 text-white mx-20 "> 
             <div class="h-4 w-16">
-                <p class="text-white font-bold text-2xl ">SUNBEAM</p>
+                <p class="text-white font-bold text-2xl "><a href="#">SUNBEAM</a></p>
             </div>
                 <ul class=" space-x-10 invisible md:visible ">
                     <a href="#" class="hover:text-green-500">Home</a>
@@ -26,18 +26,18 @@
     </nav>
     <div class=" text-white mt-32 mx-24">
         <p class="font-bold text-3xl font-Sans " >Hi, I am <br> Olaleye Samuel</p>
-        <p class="font-light text-gray-400 text-sm mb-6 mt-3">Software Developer</p>
+        <p class="font-light text-gray-400 text-md mb-6 mt-3">Software Developer</p>
         <button class=" border border-transparent bg-green-500 px-2 py-1 "><a href="https://drive.google.com/file/d/1ieM91_bHyLvS8f3pBvh_aVsIDqCCFaDV/view?usp=share_link">Download CV</button></a>
         <Button class="border ml-2 px-2 py-1">Learn More</Button>
     </div>
-    <div class="absolute right-40 top-44 h-56 w-52 ">
-        <img src="./assets/sunbeampic-removebg-preview.png " class=" h-52 w-52  border bg-nuetral-900 rounded-full object-cover">
+    <div class="absolute right-40 top-44 h-72 w-72 ">
+        <img src="./assets/sunbeampic-removebg-preview.png " class=" h-full w-full  border border-gray-500 bg-neutral-900 rounded-full object-cover">
     </div>
 </header>
-    <section class="mb-32">
+    <section class="mb-32 mt-8">
         <div class="flex mx-56 items-center flex-col text-white">
-            <p class="font-semi-bold text-3xl pb-6">About</p>
-            <p class="font-light text-sm flex items-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            <p class="font-semi-bold text-3xl pb-6">About Me</p>
+            <p class="font-light text-md flex items-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
              Architecto possimus necessitatibus, consequatur saepe vero officiis ipsum obcaecati ut tempora molestiae eius dignissimos, esse inventore quas sit sint ullam quam magni modi praesentium incidunt consequuntur quia dolore commodi. Eum, iste animi quia quam rerum ullam incidunt possimus dicta beatae ab numquam.</p>
         </div>
     <div class="grid grid-cols-4 text-white mt-16 mx-24">
@@ -81,11 +81,11 @@
         </div>
     </section2>
     <section3 class="">
-        <div class="flex mx-56 items-center flex-col text-white mb-20">
-            <p class="font-semi-bold text-3xl ">My Skills</p>
+        <div class="text-white mb-16">
+            <p class="font-semi-bold text-center text-3xl ">My Skills</p>
         </div>
-        <div class="flex grid-cols-2 gap-x-12 mx-28 text-white">
-            <div class="w-1/2">
+        <div class="flex grid-cols-2 gap-x-12 mx-28 text-white mb-24">
+            <div class="w-1/2 font-light text-md">
                 <h2>My creative <span class="text-green-500">Skills</span> and <span class="text-green-500">Experience</span> </h2>
                 <p>Lorem ipsugapzm dolor sit, amet consectetur adipisicing elit.
                  Quaerat officia velit esse incidunt, minima amet qui
@@ -96,98 +96,85 @@
                     molestiae voluptatem, earum, assumenda magnam.</p>
             </div>
             <div class="w-1/2">
-                <span class="">HTML</span>
-                    <div class="w-3/4 bg-gray-200 h-2 rounded-lg mb-4">
-                    <div class="bg-green-500 h-full rounded-lg " style="width: 100%;"></div>
-                    </div>
-
-                <span class="w-1/4">CSS</span>
-                    <div class=" w-3/4 bg-gray-200 h-2 rounded-lg mb-4">
-                      <div class="bg-green-500 h-full rounded-lg" style="width: 70%;"></div>
-                    </div>
-                <span class="w-1/4">Javascript</span>
-                    <div class="w-3/4 bg-gray-200 h-2 rounded-lg mb-4"> 
-                      <div class="bg-green-500 h-full rounded-lg" style="width: 50%;"></div>
-                    </div>
-                <span class="w-1/4">Python/Django</span>
-                    <div class=" w-3/4 bg-gray-200 h-2 rounded-lg mb-4">
-                      <div class="bg-green-500 h-full rounded-lg" style="width: 40%;"></div>
-                    </div>
-                <span class="w-1/4">Postgresql</span>
-                    <div class="w-3/4 bg-gray-200 h-2 rounded-lg mb-4">
-                      <div class="bg-green-500 h-full rounded-lg" style="width: 20%;"></div>
-                    </div>
+                <div>
+                    <p class="flex items-center">HTML </p><span class="">100%</span>
+                        <div class="w-3/4 bg-gray-200 h-2 rounded-lg mb-4">
+                        <div class="bg-green-500 h-full rounded-lg " style="width: 100%;"></div>
+                        </div>
+                </div>
+                
+                <div>
+                    <span class="w-1/4">CSS</span>
+                        <div class=" w-3/4 bg-gray-200 h-2 rounded-lg mb-4">
+                        <div class="bg-green-500 h-full rounded-lg" style="width: 70%;"></div>
+                        </div>
+                </div>
+                <div>
+                    <span class="w-1/4">Javascript</span>
+                        <div class="w-3/4 bg-gray-200 h-2 rounded-lg mb-4"> 
+                        <div class="bg-green-500 h-full rounded-lg" style="width: 50%;"></div>
+                        </div>
+                </div>
+                <div>
+                    <span class="w-1/4">Python/Django</span>
+                        <div class=" w-3/4 bg-gray-200 h-2 rounded-lg mb-4">
+                        <div class="bg-green-500 h-full rounded-lg" style="width: 40%;"></div>
+                        </div>
+                </div>
+                <div>
+                    <span class="w-1/4">Postgresql</span>
+                        <div class="w-3/4 bg-gray-200 h-2 rounded-lg mb-4">
+                        <div class="bg-green-500 h-full rounded-lg" style="width: 20%;"></div>
+                        </div>
+                </div>
             </div>
-
         </div>
-
-        <section8 class="">
-            <div class="flex mx-56 items-center flex-col text-white mb-20">
-                <p class="font-semi-bold text-3xl ">My Projects</p>
-            </div>
-            <div class="flex col gap-16 mx-28 mb-24">
-                <div class="h-60 w-60 shrink-0">
-                    <img src="./assets/claculatordp.jpg" class=" w-full h-full object-fit">
-                    <p class="text-2xl text-center my-4 text-green-500"><a href="">Calculator</a></p>
-                </div>
-                <div class="h-60 w-60 shrink-0">
-                    <img src="./assets/OIP.jpg" class="w-full h-full object-fit">
-                    <p class="text-2xl text-center my-4 text-green-500"><a href="">Hotel Booking</a></p>
-                </div>
-                <div class="h-60 w-60 shrink-0">
-                    <img src="./assets/Hotel-image.jpg" class="w-full h-full object-fit">
-                    <p class="text-2xl text-center my-4 text-green-500"><a href="">Ca</a></p>
-                </div>
-        
-
-            </div>
-
-        </section8>
-        
-        <!-- <div class="flex mx-56 items-center flex-col text-white mb-32">
-            <p class="font-semi-bold text-3xl pb-12">My Skills</p>
-            <div class="grid grid-cols-3 py-12 gap-32 border px-48 bg-neutral-800 border-transparent shadow rounded-lg">
-                <div>
-                    <p class="text-6xl text-gray-500">50%</p>
-                    <p class="text-green-400 pl-6 p-2">HTML</p>
-
-                </div>
-                <div>
-                    <p class="text-6xl text-gray-500">40%</p>
-                    <p class="text-green-400 pl-6 p-2">CSS</p>
-                </div>
-                <div>
-                    <p class="text-6xl text-gray-500">10%</p>
-                    <p class="text-green-400 pl-6 p-2">Javascript</p>
-                </div>
-            </div>
-        </div> -->
     </section3>
 
-    <section class="mt-8">
+    <section4 class="mt-24">
         <div class=" text-white mb-20">
+            <p class="font-semi-bold text-3xl text-center ">My Projects</p>
+        </div>
+        <div class="flex col gap-16 mx-28 mb-24">
+            <div class="h-60 w-60 shrink-0">
+                <img src="./assets/claculatordp.jpg" class=" w-full h-full object-fit rounded-md">
+                <p class="text-2xl text-center my-4 text-green-500"><a href="./myprojects/calculatorjs/calc.html">Calculator</a></p>
+            </div>
+            <div class="h-60 w-60 shrink-0">
+                <img src="./assets/OIP.jpg" class="w-full h-full object-cover rounded-md">
+                <p class="text-2xl text-center my-4 text-green-500"><a href="">Hotel Booking</a></p>
+            </div>
+            <div class="h-60 w-60 shrink-0">
+                <img src="./assets/screenboldo.png" class="w-full h-full object-cover rounded-md">
+                <p class="text-2xl text-center my-4 text-green-500"><a href="./myprojects/figmaproject/index.html">Boldo Template</a></p>
+            </div>
+        </div>
+    </section4>
+
+    <footer class="mt-16">
+        <div class=" text-white mb-16">
             <p class="font-semi-bold text-3xl text-center ">Contact Me</p>
         </div>
         <div class="flex grid-cols-2 gap-x-20 mx-24 ">
-            <div>
+            <form onsubmit="return submitForm()">
                 <div class="">
-                    <input type="text" class=" p-2 placeholder-black rounded-md bg-gray-400 text-black outline-none mr-3" placeholder="Name">
-                    <input type="text" class=" p-2 placeholder-black rounded-md bg-gray-400 text-black outline-none" placeholder="Email">
+                    <input id="name" type="text" class=" p-2 placeholder-black rounded-md bg-gray-400 text-black outline-none mr-3" placeholder="Name">
+                    <input id="email" type="text" class=" p-2 placeholder-black rounded-md bg-gray-400 text-black outline-none" placeholder="Email">
                 </div>
                 <div class="mt-8 ">
-                    <input type="text" class=" p-2 placeholder-black rounded-md bg-gray-400 text-black outline-none w-full" placeholder="Subject">
+                    <input id="subject" type="text" class=" p-2 placeholder-black rounded-md bg-gray-400 text-black outline-none w-full" placeholder="Subject">
                 </div>
                 <div class="mt-8">
-                    <textarea class=" bg-gray-400 placeholder-black pl-2 outline-none rounded-md w-full" rows="5" placeholder="Message"></textarea>
+                    <textarea id="message" class=" bg-gray-400 placeholder-black pl-2 outline-none rounded-md w-full" rows="5" placeholder="Message"></textarea>
                     <!-- <input type="text" class=" p-2 placeholder-black w-full rounded-md bg-gray-400 text-black" placeholder="Message"> -->
                 </div>
-                <button class=" border px-4 py-2 text-white mt-8 rounded-lg border-gray-400">Send Message</button>
-            </div>
+                <input type="submit" value="Send Message" class=" border px-4 py-2 text-white mt-8 rounded-lg border-gray-400">
+            </form>
             <div class="text-white">
-                <div class="w-96">
+                <div class="w-96 font-light text-md">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, porro repellendus? Corporis sed cumque minus unde nobis, tenetur temporibus architecto eum quaerat amet nihil eaque, necessitatibus, pariatur consequuntur voluptatum cum.</p>
                 </div>
-                <div class="mt-8 font-bold">
+                <div class="mt-8 font-bold text-md">
                     <div class="flex items-center space-x-8 mb-6">
                     <i class="fa-solid fa-user" style="color: #14c24d; font-size: larger;"></i>
                     <p> Olaleye Samuel</p>
@@ -207,53 +194,12 @@
                 </div>
             </div>
         </div>
-        <div class="text-white text-center my-8 font-semibold">
-            <p>Created By <span class="text-green-400">Sunbeam</span> &copy; 2023 All Right Reserved </p>
+        <div class="text-white text-center my-8 text-md">
+            <p class="font-light">Created By <span class="text-green-400 font-semibold">Sunbeam</span> &copy; 2023 All Right Reserved </p>
         </div>
 
-    </section>
-    
-    
-        
-    <!-- <footer class="my-12 text-white">
-            <div class="flex mx-56 items-center flex-col text-white mb-20">
-                <p class="font-semi-bold text-3xl ">Get in touch</p>
-            </div>
-            <div class="grid grid-cols-5 pl-32">
-                <div class=" col-span-2 w-60">
-                    <p class="text-sm">Social media validation business model canvas graphical user 
-                        interface launch party creative facebook iPad twitter.</p>
-        
-                </div>
-                <div class="text-sm">
-                    <p class="pb-8 ">Landing</p>
-                    <ul>                   
-                        <li class="pb-2">Home</li>
-                        <li class="pb-2">Product</li>
-                        <li class="">Services</li>
-                    </ul>
-                </div>
-                <div class="text-sm">
-                    <p class="pb-8">Company</p>
-                    <ul> 
-                        <li class="pb-2">Home</li>
-                        <li class="pb-2 flex items-center pr-2">Careers
-                            <p class="border bg-green-500 w-12 pl-1 rounded-full ">Hiring!</p>
-                        </li>
-                        <li class="">Services</li>
-                    </ul>
-                </div>
-                <div class="text-sm">
-                    <p class="pb-8">Resources</p>
-                    <ul>
-                        <li class="pb-2">Blogs</li>
-                        <li class="pb-2">Products</li>
-                        <li class="">Services</li>
-                    </ul>
-                </div>
-        
-            </div>
-        </footer> -->
+    </footer>
+           <script src="./script.js"></script>
     
 </body>
 </html>
